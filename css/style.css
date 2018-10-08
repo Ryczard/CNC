@@ -176,6 +176,9 @@ footer p {
   height: 65vh;
   color: #ffeaa7;
 }
+.contact a {
+  text-decoration: none;
+}
 .contact h2{
   text-align: left;
   margin-left: 30px;
