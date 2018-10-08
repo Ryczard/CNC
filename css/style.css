@@ -154,6 +154,7 @@ footer p {
   border-radius: 15px;
 }
 .modal-title {
+  float: left;
   padding-left: 15px;
   font-size: 30px;
 }
