@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 body {
-  background-color: #52321F;
+  background-color: #ffeaa7;
 }
 main {
   min-height: 60vh;
@@ -13,7 +13,7 @@ main {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-  background-color: #52321F;
+  background-color: #ffeaa7;
 }
 .menu {
   background-color: #ffeaa7;
@@ -76,7 +76,7 @@ nav ul li a:hover {
 .about-us {
   padding: 40px;
   padding-bottom: 0;
-  color: #ffeaa7;
+  color: #52321F;
 }
 .row {
   margin-top: 20px;
@@ -106,11 +106,11 @@ footer p {
   min-height: 1px;
   border: solid 1.5px;
   margin: 0 auto 50px auto;
-  color: #ffeaa7;
+  color: #52321F;
   margin-top: 50px;
 }
 .footer-content {
-  background-color: #52321F;
+  background-color: #ffeaa7;
   padding: 0 50px 30px 50px;
 }
 .btn-facebook {
@@ -133,7 +133,7 @@ footer p {
 /*OFERTA*/
 .offer {
   padding: 40px;
-  color: #ffeaa7;
+  color: #52321F;
 }
 .offer p, h2 {
   text-align: center;
@@ -175,7 +175,7 @@ footer p {
 /*KONTAKT*/
 .contact {
   height: 65vh;
-  color: #ffeaa7;
+  color: #52321F;
 }
 .contact a {
   text-decoration: none;
