@@ -4,10 +4,20 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body {
+  background-color: #52321F;
+}
+main {
+  min-height: 60vh;
+}
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+  background-color: #52321F;
+}
+.menu {
   background-color: #ffeaa7;
+  padding: 7px 15px;
 }
 nav {
   width: 100%;
@@ -35,22 +45,24 @@ nav ul li a {
   line-height: 110px;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 25px;
-  color: #e17055;
+  color:  #52321F;
   transition: 0.3s;
 }
 nav ul li a:hover {
-  background-color: #e17055;
+  background-color: #52321F;
   color: #ffeaa7;
   text-decoration: none;
 }
 /* SLIDESHOW  */
 .carousel-contaner {
   height: 85vh;
-    bottom: 0;
+  bottom: 0;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 .item { 
   width:100%;
@@ -61,8 +73,10 @@ nav ul li a:hover {
   width: 100%; 
 }
 /* O NAS */
-.aboutus {
+.about-us {
   padding: 40px;
+  padding-bottom: 0;
+  color: #ffeaa7;
 }
 .row {
   margin-top: 20px;
@@ -72,83 +86,107 @@ main p {
   font-size: 2rem;
   text-align: justify;
 }
-.aboutus img {
+.about-us img {
   width: 100%;
   border-radius: 15px;
 }
-/* LIGHTBOX*/
-#lightbox {
-  position: fixed;
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
-  background: rgba(0, 0, 0, .7); 
-  text-align: center;
-}
-#content {
-  position: relative;
-    float: left;
-  max-width: 1200px;
-      background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 /* STOPKA */
 footer {
-  color: #e17055;
-  background-color: #ffeaa7;
-  height: 200px;  
+  color: #e17055; 
   text-align: right;
-  padding: 20px 15px;
   font-size: 2rem;
   font-weight: 700;
 }
 footer p {
   display: inline-block;
 }
-.fa-facebook {
-  color: white;
-  padding: 20px;
-  font-size: 30px;
-  background: #3B5998;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  text-align: center;
-  transition: 0.3s;
+.divider {
+  max-width: 1000px;
+  min-height: 1px;
+  border: solid 1.5px;
+  margin: 0 auto 50px auto;
+  color: #ffeaa7;
+  margin-top: 50px;
 }
-.fa-facebook:hover {
-  transform: scale(1.10);
-  color: #3B5998;
+.footer-content {
+  background-color: #52321F;
+  padding: 0 50px 30px 50px;
+}
+.btn-facebook {
+  background-color: #2D4373;
+  font-size: 26px;
+  padding: 6px 16px;
+  color: #FFFFFF;
+}
+.btn-facebook:visited {
+  color: #FFFFFF;
+}
+.btn-facebook:hover {
+  color: #2D4373;
   background-color: #FFFFFF;
-  text-decoration: none;
 }
 .copy {
   text-align: left;
-  border-top: 2px solid #e17055;
-  margin-top: 60px; 
   font-weight: 300;
 }
 /*OFERTA*/
 .offer {
   padding: 40px;
+  color: #ffeaa7;
 }
 .offer p, h2 {
   text-align: center;
-  margin-top: 20px;
 }
-.wrapper {
-    position: relative;
-    float: left;
-    width:  350px;
-    height: 250px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 15px;
-    margin-bottom: 20px;
+.thumbnail {
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 250px;
+  border-radius: 15px;
+}
+.wrapper {  
+  width:  350px;
+  height: 250px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+.modal-title {
+  padding-left: 15px;
+  font-size: 30px;
+}
+.col-md-12 {
+  float: none;
+}
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+#image-gallery .modal-footer{
+  display: block;
+}
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/*KONTAKT*/
+.contact {
+  height: 65vh;
+  color: #ffeaa7;
+}
+.contact h2{
+  text-align: left;
+  margin-left: 30px;
+}
+.contact-wrapper {
+  padding-top: 60px;
+}
+.contact-wrapper h3 {
+  font-size: 26px;
+}
+.contact-wrapper > p, h3{
+  padding: 5px;
+  text-align: center;
 }
