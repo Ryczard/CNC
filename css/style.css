@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 	margin: 0;
 	box-sizing: border-box;
 }
@@ -83,7 +84,7 @@ nav ul li a:hover {
 }
 main p {
   padding: 10px;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   text-align: justify;
 }
 main h1 {
@@ -91,6 +92,7 @@ main h1 {
 }
 main h2 {
   font-size: 26px;
+  margin-top: 0;
 }
 .about-us img {
   width: 100%;
