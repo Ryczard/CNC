@@ -16,7 +16,7 @@ main {
 	margin: 0 auto;
   background-color: #FFFFFF;
 }
-.menu {
+.navigation {
   background-color: #e8e9e4;
   padding: 7px 15px;
 }
@@ -54,10 +54,14 @@ nav ul li a:hover {
   color: #e8e9e4;
   text-decoration: none;
 }
+.toggle {
+  font-size: 40px;
+  background: #e8e9e4; 
+  float: right;
+  display: none;
+}
 /* SLIDESHOW  */
-.carousel-contaner {
-  height: 85vh;
-  bottom: 0;
+.carousel-container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -110,7 +114,7 @@ footer p {
   max-width: 1000px;
   min-height: 1px;
   border: solid 1.5px;
-  margin: 0 auto 50px auto;
+  margin: 50px auto 50px auto;
   color: #2d2d2d;
 }
 .footer-content {
@@ -156,8 +160,9 @@ footer p {
   margin: 0;
   border: none;
   height: 250px;
-  width: 350px;
+  width: 100%;
   border-radius: 15px;
+  margin: 0 auto;
 }
 .wrapper {  
   width:  350px;
@@ -172,9 +177,7 @@ footer p {
   padding-left: 15px;
   font-size: 30px;
 }
-.col-md-12 {
-  float: none;
-}
+
 .btn:focus, .btn:active, button:focus, button:active {
   outline: none !important;
   box-shadow: none !important;
@@ -208,4 +211,26 @@ footer p {
 .contact-wrapper > p, h3{
   padding: 5px;
   text-align: center;
+}
+.show {
+  display: block;
+}
+@media (max-width: 992px) {
+  .toggle {
+    display: inline-block;
+  }
+  nav ul {
+    width: 100%;
+    display: none;
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
+  }
+  .thumbnail {
+    width: 350px;
+  }
+  .thumb h2 {
+    margin-top: 20px;
+  }
 }

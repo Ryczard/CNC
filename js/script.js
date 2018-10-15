@@ -3,6 +3,11 @@ let modalId = $('#image-gallery');
 $(document)
   .ready(function () {
 
+    $('.menu').click(function(){
+        $('ul').toggleClass('show');
+    })
+
+
     loadGallery(true, 'a.thumbnail');
 
     //This function disables buttons when needed
