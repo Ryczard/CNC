@@ -55,7 +55,7 @@ nav ul li a:hover {
   text-decoration: none;
 }
 .toggle {
-  font-size: 40px;
+  font-size: 30px;
   background: #e8e9e4; 
   float: right;
   display: none;
@@ -232,5 +232,16 @@ footer p {
   }
   .thumb h2 {
     margin-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  nav img {
+    height: 80px;
+  }
+  .offer {
+    padding: 0;
+  }
+  .thumbnail {
+    width: 300px;
   }
 }
