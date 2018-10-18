@@ -191,7 +191,8 @@ footer p {
 }
 /*KONTAKT*/
 .contact {
-  margin: 40px 0;
+  margin: 0;
+  padding-top: 40px;
   min-height: calc(100vh - 340px);
   color: #2d2d2d;
 }
@@ -219,14 +220,24 @@ footer p {
   .toggle {
     display: inline-block;
   }
+  .navigation {
+    padding-bottom: 0;
+  }
   nav ul {
     width: 100%;
     display: none;
     padding-top: 15px;
+    margin-bottom: 40px;
   }
   nav ul li {
     display: block;
     text-align: center;
+  }
+  nav ul li:first-of-type {
+    border-top: 2px solid;
+  }
+  nav ul li:last-of-type {
+    border-bottom: 2px solid;
   }
   nav ul li a {
     margin: 0;
