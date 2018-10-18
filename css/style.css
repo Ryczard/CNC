@@ -261,4 +261,7 @@ footer p {
   .footer-content {
     padding: 10px;
   }
+  .thumb h2 {
+    margin-top: 10px;
+  }
 }
