@@ -7,9 +7,6 @@
 body {
   background-color: #FFFFFF;
 }
-main {
-  min-height: 60vh;
-}
 .row {
   margin: 0;
   text-align: center;
@@ -87,7 +84,6 @@ nav ul li a:hover {
 /* O NAS */
 .about-us {
   padding: 40px;
-  padding-bottom: 0;
   color: #2d2d2d;
 }
 main p {
@@ -109,6 +105,7 @@ main h2 {
 }
 /* STOPKA */
 footer {
+  height: 150px;
   background-color: #2d2d2d;
   color: #e8e9e4; 
   text-align: right;
@@ -117,13 +114,6 @@ footer {
 }
 footer p {
   display: inline-block;
-}
-.divider {
-  max-width: 1000px;
-  min-height: 1px;
-  border: solid 1.5px;
-  margin: 50px auto 50px auto;
-  color: #2d2d2d;
 }
 .footer-content {
   max-width: 1200px;
@@ -200,8 +190,8 @@ footer p {
 }
 /*KONTAKT*/
 .contact {
-  padding-top: 40px;
-  height: 65vh;
+  margin-top: 40px;
+  height: calc(100vh - 340px);
   color: #2d2d2d;
 }
 .contact a {
