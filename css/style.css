@@ -113,6 +113,7 @@ footer {
   font-weight: 700;  
 }
 footer p {
+  margin-top: 20px;
   display: inline-block;
 }
 .footer-content {
@@ -190,8 +191,8 @@ footer p {
 }
 /*KONTAKT*/
 .contact {
-  margin-top: 40px;
-  height: calc(100vh - 340px);
+  margin: 40px 0;
+  min-height: calc(100vh - 340px);
   color: #2d2d2d;
 }
 .contact a {
